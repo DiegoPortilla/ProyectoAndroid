@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="InsertActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ventana Insertar"
+        android:paddingBottom="20sp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+      />
+  <EditText
+      android:id="@+id/txtID"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Insertar ID"
+      />
+  <EditText
+      android:id="@+id/txtNombre"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Insertar Nombre"
+      />
+
+  <EditText
+      android:id="@+id/txtEmail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Insertar Email"
+      />
+  <EditText
+      android:id="@+id/txtPassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Insertar Password"
+      />
+
+  <Button
+      android:id="@+id/btnInsert"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="INSERTAR"
+    />
+
+
+
+  </LinearLayout>
